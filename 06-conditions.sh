@@ -1,5 +1,5 @@
 number=$1
-String=$2
+string=$2
 
 if [ "${number}" -eq 5 ]; then
   echo number is 5
