@@ -6,6 +6,8 @@ if [ "${number}" -eq 5 ]; then
 fi
 
 # shellcheck disable=SC2154
-if [ ${string} == abc ]; then
+if [ "${string}" == abc ]; then
   echo string is abc
 fi
+
+#it is always a good practice to quote variables in expressions
